@@ -1,14 +1,13 @@
-SOURCES
+SOURCES.txt — A City Waking Up
 
-Video: "Earth from Space in 4K - Expedition 65 Edition" (NASA, public domain)
-NASA ID: jsc2022m000172_Earth_in_4K_Expedition_65_Edition
-Asset URL: https://images-assets.nasa.gov/video/jsc2022m000172_Earth_in_4K_Expedition_65_Edition/jsc2022m000172_Earth_in_4K_Expedition_65_Edition~medium.mp4
-Catalog page: https://images.nasa.gov/details/jsc2022m000172_Earth_in_4K_Expedition_65_Edition
-License: NASA media usage guidelines (public domain work of the US Government)
+Video (public domain):
+- night_cities.mp4, 3:45, 640x360 29.97fps — 'Cities of Earth at Night', a mash-up of photos and videos taken from the ISS. All footage used is NASA ISS orbital video, which is public domain per NASA media usage policy.
+  Source: https://archive.org/details/fireflies5 (file fireflies5.mp4)
+  Cut windows used: 55.0-60.0, 60.5-65.5, 99.0-104.0, 153.0-158.0, 160.5-165.5, 196.0-201.0, 210.0-215.0. Every window was checked frame by frame: no on-screen text, no people, no watermarks, no black or frozen frames (source stills carrying NASA photo IDs and labeled caption cards were excluded entirely).
 
-Audio: "Morning Rain (Piano) - 100bpm" by elaineaeris (CC0)
-Page: https://freesound.org/people/elaineaeris/sounds/502893
-File: https://cdn.freesound.org/previews/502/502893_10423620-hq.mp3
-License: Creative Commons Zero (CC0)
+Audio:
+- dawn_theme.wav — original 35-second ambient composition written for this cut (synthesized pads, pluck pulse, bass, arpeggio; 96 bpm, cuts land on beats). Composed programmatically by the auditioning agent; released as CC0, free for any use.
+  Generator script: make_music.py in this folder.
 
-Tools: ffmpeg 7.1 (LGPL build), concat + scale + gblur + eq + afade + alimiter.
+Build:
+- Segments cut with ffmpeg, center-cropped to 9:16 and scaled to 1080x1920, concatenated, music mixed with 1.2s fade-in and 3s fade-out. Audio peaks at -5.1 dBFS (below the -1 dBFS cap, no clipping). edit.json rebuilds the timeline exactly.
