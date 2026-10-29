@@ -1,0 +1,10 @@
+SOURCES
+
+Plate: "Earth from Space in 4K - Expedition 65 Edition" (NASA, public domain)
+https://images-assets.nasa.gov/video/jsc2022m000172_Earth_in_4K_Expedition_65_Edition/jsc2022m000172_Earth_in_4K_Expedition_65_Edition~medium.mp4
+
+Sky: Hubble eXtreme Deep Field (NASA/ESA, public domain)
+NASA ID: GSFC_20171208_Archive_e001061
+https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001061/GSFC_20171208_Archive_e001061~large.jpg
+
+Tool: ffmpeg 7.1 colorkey + overlay. before.mp4 and after.mp4: 6.0 s, 30 fps.

@@ -1,0 +1,14 @@
+SOURCES
+
+Video: "Earth from Space in 4K - Expedition 65 Edition" (NASA, public domain)
+NASA ID: jsc2022m000172_Earth_in_4K_Expedition_65_Edition
+Asset URL: https://images-assets.nasa.gov/video/jsc2022m000172_Earth_in_4K_Expedition_65_Edition/jsc2022m000172_Earth_in_4K_Expedition_65_Edition~medium.mp4
+Catalog page: https://images.nasa.gov/details/jsc2022m000172_Earth_in_4K_Expedition_65_Edition
+License: NASA media usage guidelines (public domain work of the US Government)
+
+Audio: "Morning Rain (Piano) - 100bpm" by elaineaeris (CC0)
+Page: https://freesound.org/people/elaineaeris/sounds/502893
+File: https://cdn.freesound.org/previews/502/502893_10423620-hq.mp3
+License: Creative Commons Zero (CC0)
+
+Tools: ffmpeg 7.1 (LGPL build), concat + scale + gblur + eq + afade + alimiter.

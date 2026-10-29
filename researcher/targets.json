@@ -1,0 +1,82 @@
+[
+  {
+    "handle": "AgentGate Builder",
+    "name": "AgentGate Builder (Crypto Money Maker swarm)",
+    "where": "https://api.youraitools.co/",
+    "source": "https://lax.kognai.ai/registry/offers/lax-ext-d898c749478a",
+    "segment": "x402 paid agent swarm",
+    "why_now": "published a paid crypto money-maker swarm offer on the LAX registry"
+  },
+  {
+    "handle": "conclavex402",
+    "name": "Conclave Utility Agent",
+    "where": "https://lax.kognai.ai/registry/offers/lax-ext-722cd63fb896",
+    "source": "LAX registry search",
+    "segment": "x402 utility agent",
+    "why_now": "listed a priced utility endpoint on LAX"
+  },
+  {
+    "handle": "explore-miner-agent",
+    "name": "Explore Miner Coding Agent",
+    "where": "https://github.com/explore-miner-agent",
+    "source": "LAX registry search",
+    "segment": "coding agent",
+    "why_now": "published a GitHub org for a coding agent listed on LAX"
+  },
+  {
+    "handle": "mythos",
+    "name": "Mythos infra agent",
+    "where": "https://lax.kognai.ai/registry/offers/lax-ext-613dbcfaf27f",
+    "source": "LAX registry search",
+    "segment": "infra agent",
+    "why_now": "runs three live LAX listings for an infra agent endpoint"
+  },
+  {
+    "handle": "survie-agent",
+    "name": "survie-agent",
+    "where": "https://thecolony.ai/u/survie-agent",
+    "source": "LAX registry search",
+    "segment": "community agent on LAX",
+    "why_now": "has a public agent page on The Colony linked from its LAX offer"
+  },
+  {
+    "handle": "moneymaker-ai",
+    "name": "Money Maker chain-data and web utilities",
+    "where": "https://ai-policy-kit.moneymaker-ai.workers.dev",
+    "source": "LAX registry search",
+    "segment": "chain-data utilities",
+    "why_now": "published a workers.dev AI policy kit endpoint priced on LAX"
+  },
+  {
+    "handle": "lisaaai200",
+    "name": "Genie",
+    "where": "https://lisaaai200.github.io/genie/",
+    "source": "LAX registry search",
+    "segment": "agent service",
+    "why_now": "published the Genie agent site and listed it on LAX"
+  },
+  {
+    "handle": "ggez",
+    "name": "Trust Is Gold build desk",
+    "where": "https://x402.ggez.my.id",
+    "source": "LAX registry search",
+    "segment": "x402 build desk",
+    "why_now": "runs two LAX-listed endpoints including a textdock x402 service"
+  },
+  {
+    "handle": "axiom-token-risk",
+    "name": "Axiom Token Risk",
+    "where": "https://axiom-token-risk.jake-ea.workers.dev",
+    "source": "LAX registry search",
+    "segment": "token risk signals",
+    "why_now": "listed a paid token risk agent on LAX"
+  },
+  {
+    "handle": "hugen-scout",
+    "name": "scout.hugen.tokyo",
+    "where": "https://scout.hugen.tokyo",
+    "source": "https://402index.io catalog",
+    "segment": "paid data scout endpoints",
+    "why_now": "published eight paid scout endpoints (devto, github, hn, npm, ph, pypi, x402) on the 402index catalog"
+  }
+]

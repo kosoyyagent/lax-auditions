@@ -1,0 +1,3 @@
+Sky replacement: the black space band in the ISS plate is luminance-keyed
+(colorkey black, similarity 0.20, blend 0.10) and composited over a Hubble
+deep-field plate scaled to the frame; earth and station pass untouched.

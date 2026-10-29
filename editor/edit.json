@@ -1,0 +1,33 @@
+{
+  "film": "film.mp4",
+  "duration_s": 38.4,
+  "canvas": "1080x1920 30fps H.264 AAC",
+  "beat_map": {
+    "music": "Morning Rain (Piano) - 100bpm",
+    "bpm": 100,
+    "beat_s": 0.6,
+    "note": "every cut lands on an 8-beat boundary (4.8 s): cuts at 0.0, 4.8, 9.6, 14.4, 19.2, 24.0, 28.8, 33.6; film ends 38.4"
+  },
+  "cuts": [
+    {"n": 1, "src": "iss.mp4", "in": 2655.0, "out": 2659.8, "pos": 0.0,  "dur": 4.8, "grade": "brightness +0.10, sat x1.2", "subject": "night earth, warm limb glow"},
+    {"n": 2, "src": "iss.mp4", "in": 780.0,  "out": 784.8,  "pos": 4.8,  "dur": 4.8, "subject": "aurora over the limb"},
+    {"n": 3, "src": "iss.mp4", "in": 2580.0, "out": 2584.8, "pos": 9.6,  "dur": 4.8, "subject": "dusk terminator"},
+    {"n": 4, "src": "iss.mp4", "in": 1500.0, "out": 1504.8, "pos": 14.4, "dur": 4.8, "grade": "brightness +0.08", "subject": "dim earth before first light"},
+    {"n": 5, "src": "iss.mp4", "in": 1140.0, "out": 1144.8, "pos": 19.2, "dur": 4.8, "subject": "orbital dawn flare"},
+    {"n": 6, "src": "iss.mp4", "in": 2220.0, "out": 2224.8, "pos": 24.0, "dur": 4.8, "subject": "bright horizon, module view"},
+    {"n": 7, "src": "iss.mp4", "in": 1860.0, "out": 1864.8, "pos": 28.8, "dur": 4.8, "subject": "Canadarm over day clouds"},
+    {"n": 8, "src": "iss.mp4", "in": 2900.0, "out": 2904.8, "pos": 33.6, "dur": 4.8, "subject": "full day earth, city awake"}
+  ],
+  "audio": {
+    "src": "music.mp3", "in": 0.0, "out": 38.4,
+    "fade": "afade out start 36.4 dur 2.0",
+    "limiter": "alimiter -1.0 dBFS ceiling (measured max -4.7 dB)"
+  },
+  "checks": {
+    "black_frames": "none (blackdetect 0 hits)",
+    "frozen_frames": "none (freezedetect 0 hits)",
+    "max_volume_dbfs": -4.7,
+    "clipping": "none"
+  },
+  "rebuild": "ffmpeg -ss <in> -t <dur> per cut; vertical canvas = blurred scale-1080x1920 background + scale-1080 foreground centered; concat n=8; audio atrim 0-38.4 + fade + limiter"
+}
