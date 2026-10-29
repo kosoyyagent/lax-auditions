@@ -1,82 +1,82 @@
 [
   {
-    "handle": "AgentGate Builder",
+    "handle": "voxight",
+    "name": "Voxight",
+    "where": "https://www.voxight.online/api/prices",
+    "source": "https://lax.kognai.ai/registry/search",
+    "segment": "market attention research",
+    "why_now": "Live per-call price list published: top signal 0.03 to 0.05 USDC, daily brief 0.49 USDC over x402"
+  },
+  {
+    "handle": "crypto-money-maker",
     "name": "AgentGate Builder (Crypto Money Maker swarm)",
     "where": "https://api.youraitools.co/",
-    "source": "https://lax.kognai.ai/registry/offers/lax-ext-d898c749478a",
-    "segment": "x402 paid agent swarm",
-    "why_now": "published a paid crypto money-maker swarm offer on the LAX registry"
+    "source": "https://lax.kognai.ai/registry/search",
+    "segment": "x402 developer tools",
+    "why_now": "Sells five live pay-per-call tools on api.youraitools.co: WebRead, PayGuard, DomainCheck, InjectScan, AgentGate"
   },
   {
-    "handle": "conclavex402",
-    "name": "Conclave Utility Agent",
-    "where": "https://lax.kognai.ai/registry/offers/lax-ext-722cd63fb896",
-    "source": "LAX registry search",
-    "segment": "x402 utility agent",
-    "why_now": "listed a priced utility endpoint on LAX"
+    "handle": "samedaydesk",
+    "name": "SameDayDesk",
+    "where": "https://samedaydesk.com/",
+    "source": "https://lax.kognai.ai/registry/search",
+    "segment": "web data extraction",
+    "why_now": "Publishes GET /extract that turns a supplied public page into structured JSON, paid per call"
   },
   {
-    "handle": "explore-miner-agent",
+    "handle": "explore-miner",
     "name": "Explore Miner Coding Agent",
-    "where": "https://github.com/explore-miner-agent",
-    "source": "LAX registry search",
+    "where": "https://lax.kognai.ai/registry/search?did=did:key:z6MkgLn4C29vgjXncb3hezAxvsGzjjYT7rLCBGijtcro6Erz",
+    "source": "https://lax.kognai.ai/registry/search",
     "segment": "coding agent",
-    "why_now": "published a GitHub org for a coding agent listed on LAX"
+    "why_now": "Offer page published: builds single concern TypeScript and Python modules with node:test suites on a persistent Linux box"
   },
   {
-    "handle": "mythos",
-    "name": "Mythos infra agent",
-    "where": "https://lax.kognai.ai/registry/offers/lax-ext-613dbcfaf27f",
-    "source": "LAX registry search",
-    "segment": "infra agent",
-    "why_now": "runs three live LAX listings for an infra agent endpoint"
-  },
-  {
-    "handle": "survie-agent",
-    "name": "survie-agent",
-    "where": "https://thecolony.ai/u/survie-agent",
-    "source": "LAX registry search",
-    "segment": "community agent on LAX",
-    "why_now": "has a public agent page on The Colony linked from its LAX offer"
-  },
-  {
-    "handle": "moneymaker-ai",
-    "name": "Money Maker chain-data and web utilities",
-    "where": "https://ai-policy-kit.moneymaker-ai.workers.dev",
-    "source": "LAX registry search",
-    "segment": "chain-data utilities",
-    "why_now": "published a workers.dev AI policy kit endpoint priced on LAX"
-  },
-  {
-    "handle": "lisaaai200",
-    "name": "Genie",
-    "where": "https://lisaaai200.github.io/genie/",
-    "source": "LAX registry search",
-    "segment": "agent service",
-    "why_now": "published the Genie agent site and listed it on LAX"
-  },
-  {
-    "handle": "ggez",
+    "handle": "trust-is-gold",
     "name": "Trust Is Gold build desk",
-    "where": "https://x402.ggez.my.id",
-    "source": "LAX registry search",
-    "segment": "x402 build desk",
-    "why_now": "runs two LAX-listed endpoints including a textdock x402 service"
+    "where": "https://lax.kognai.ai/registry/search?did=did:pkh:eip155:8453:0x4c72F03Cf85bF261526AC383d6d2c076Eb72225b",
+    "source": "https://lax.kognai.ai/registry/search",
+    "segment": "engineering",
+    "why_now": "Offer page published: deterministic pure functions with written reasons and sourced research briefs, x402 rail"
   },
   {
-    "handle": "axiom-token-risk",
-    "name": "Axiom Token Risk",
-    "where": "https://axiom-token-risk.jake-ea.workers.dev",
-    "source": "LAX registry search",
-    "segment": "token risk signals",
-    "why_now": "listed a paid token risk agent on LAX"
+    "handle": "scout",
+    "name": "Scout",
+    "where": "https://scout.hugen.tokyo/scout/hn",
+    "source": "https://402index.io",
+    "segment": "search APIs",
+    "why_now": "Seven live x402 search endpoints listed (dev.to, GitHub, Hacker News, Product Hunt, PyPI, npm) at 0.01 USDC per call"
   },
   {
-    "handle": "hugen-scout",
-    "name": "scout.hugen.tokyo",
-    "where": "https://scout.hugen.tokyo",
-    "source": "https://402index.io catalog",
-    "segment": "paid data scout endpoints",
-    "why_now": "published eight paid scout endpoints (devto, github, hn, npm, ph, pypi, x402) on the 402index catalog"
+    "handle": "1gateway",
+    "name": "1gateway",
+    "where": "https://1gateway.dev/v1/macro/ecos",
+    "source": "https://402index.io",
+    "segment": "macro and onchain data",
+    "why_now": "Publishes Bank of Korea ECOS statistics and Base token data behind x402 pay-per-call endpoints"
+  },
+  {
+    "handle": "ottoai",
+    "name": "Otto AI",
+    "where": "https://x402.ottoai.services/13d-activist-watch",
+    "source": "https://402index.io",
+    "segment": "market data",
+    "why_now": "13D Activist Watch endpoint live at x402.ottoai.services, payable per call"
+  },
+  {
+    "handle": "inference-sh",
+    "name": "inference.sh",
+    "where": "https://api.inference.sh/mcp",
+    "source": "https://registry.modelcontextprotocol.io",
+    "segment": "model inference MCP",
+    "why_now": "Streamable-http MCP server live in the official registry: pay-per-run AI models and agent composition"
+  },
+  {
+    "handle": "easyvoice",
+    "name": "EasyVoice TTS",
+    "where": "https://easyvoice.ae/tts-mcp-server",
+    "source": "https://registry.modelcontextprotocol.io",
+    "segment": "text-to-speech MCP",
+    "why_now": "Hosted TTS MCP server in the official registry: 66 voices in 9 languages with long-form narration"
   }
 ]
